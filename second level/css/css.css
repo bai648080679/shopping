@@ -1,0 +1,40 @@
+            .imgbox {
+				position:relative;
+				margin-left:100px;
+			}
+			.probox {
+				width:300px;
+				height:300px;
+				border:1px solid #000;
+			}
+			.probox img {
+				width:300px;
+				height:300px;
+				vertical-align:top;
+			}
+			.showbox {
+				display:none;
+				position:absolute;
+				left:403px;
+				top:0;
+				width:400px;
+				height:300px;
+				overflow:hidden;
+				border:1px solid #ccc;
+			}
+			.showbox img {
+				position:absolute;
+				height:1200px;
+				width:1200px;
+			}
+			.hoverbox {
+				display:none;
+				position:absolute;
+				top:0;
+				background:#09f;
+				border:1px solid #09f;
+				height:75px;
+				width:100px;
+				cursor:move;
+				z-index:10;
+			}
